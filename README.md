@@ -1,4 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Jetbrains+Mono&size=30&pause=1000&color=1855F7&center=true&vCenter=true&multiline=true&width=435&lines=Shivarjun+Reddy+Palla;Business+Analyst)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Jetbrains+Mono&size=48&pause=1000&color=1855F7&center=true&vCenter=true&multiline=true&width=435&lines=Shivarjun+Reddy+Palla;Business+Analyst)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Jetbrains+Mono&size=30&pause=1000&color=1855F7&center=true&vCenter=true&multiline=true&width=435&lines=Business+Analyst+%26+Consultant)](https://git.io/typing-svg)
 
 # Hey! I'm Shivarjun 👋
 
