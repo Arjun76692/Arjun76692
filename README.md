@@ -85,7 +85,7 @@ End-to-end ETL pipeline for analyzing vendor profitability and inventory efficie
 ## Get in Touch
 
 📧 arjunreddy.inc@gmail.com  
-💼 [LinkedIn](your-linkedin-url)  
+💼 [LinkedIn](https://www.linkedin.com/in/shivarjun-reddy-palla-31a001223/)  
 📍 Hyderabad, India
 
 ---
