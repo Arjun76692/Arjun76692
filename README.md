@@ -2,7 +2,7 @@
 
 **MCA Student | Data Analytics Enthusiast | Building stuff with Python & SQL**
 
-I'm wrapping up my Master's in Computer Applications and spending most of my time turning raw data into something useful. I like building complete systems—not just analysis notebooks, but proper pipelines with error handling, logging, and automation.
+I'm a Recent Master of Computer Applications Post-Graduate spending most of my time turning raw data into something useful. I like building complete systems—not just analysis notebooks, but proper pipelines with error handling, logging, and automation.
 
 Currently based in Hyderabad, learning by doing.
 
