@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Merriweather&size=48&duration=2500&pause=9999&color=7AE2CF&center=true&vCenter=true&width=1000&height=80&lines=Shivarjun+Reddy+Palla" alt="Shivarjun Reddy Palla" />
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Jetbrains+Mono&size=22&duration=2500&pause=250&color=077A7D&center=true&vCenter=true&width=1000&height=50&lines=Business+Analyst;Data+Analyst;Consultant+with+Analytical+Mindset" alt="Role" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Jetbrains+Mono&size=22&duration=2500&pause=250&color=077A7D&center=true&vCenter=true&width=1000&height=50&lines=Business+Analyst;Data+Analyst" alt="Role" />
 </p>
 
 # Hey! I'm Shivarjun 👋
