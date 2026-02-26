@@ -17,7 +17,7 @@ I'm a recent MCA post-graduate who learns by building real things. Not toy datas
 
 ---
 
-### 🔍 [CRED App — Play Store Review Analysis](./CRED-Product-Analytics-150K-Reviews)
+### 🔍 [CRED App — Play Store Review Analysis](https://github.com/Arjun76692/CRED-Product-Analytics-150K-Reviews)
 > *What does a 4.20 star rating hide? Turns out, a lot.*
 
 I scraped 1,50,000 CRED Play Store reviews (Oct 2022 – Feb 2026) after noticing my coins couldn't buy anything cheaper than Amazon. What I found was a 1.72 star gap sitting underneath a healthy headline rating.
@@ -41,11 +41,11 @@ I scraped 1,50,000 CRED Play Store reviews (Oct 2022 – Feb 2026) after noticin
 
 **Stack:** Python, google-play-scraper, pandas, matplotlib, Power BI
 
-📄 [Read the full analysis on Medium](./) · 📓 [Notebook](./CRED-Product-Analytics-150K-Reviews/Analysis.ipynb)
+📄 [Read the full analysis on Medium](https://medium.com/@arjunreddy.inc/i-analysed-1-50-000-cred-reviews-because-i-got-curious-about-my-own-coins-which-i-got-as-rewards-8ab54d11e6ac) · 📓 [Notebook](https://github.com/Arjun76692/CRED-Product-Analytics-150K-Reviews/Analysis.ipynb)
 
 ---
 
-### 📊 [Mutual Fund Investment Framework](./Mutual-Fund-Risk-Adjusted-Performance-Analyzer-)
+### 📊 [Mutual Fund Investment Framework](https://github.com/Arjun76692/Mutual-Fund-Risk-Adjusted-Performance-Analyzer-)
 > *Only 6% of 340+ equity funds pass a basic risk-adjusted quality bar.*
 
 I wanted to understand how to evaluate mutual funds beyond just returns — so I built a framework from scratch using real fund data, conducted 21 structured interviews to understand how retail investors actually make decisions, and found the gap between what investors look at and what the data says matters.
@@ -68,7 +68,7 @@ I wanted to understand how to evaluate mutual funds beyond just returns — so I
 
 ---
 
-### 📦 [E-Commerce Vendor Analytics Pipeline](./E-Commerce-Vendor-Analytics-Pipeline)
+### 📦 [E-Commerce Vendor Analytics Pipeline](https://github.com/Arjun76692/E-Commerce-Vendor-Analytics-Pipeline)
 End-to-end ETL pipeline for vendor profitability analysis across 2.7M+ transactions.
 
 - Automated ingest → clean → transform pipeline with error handling and logging
@@ -80,8 +80,8 @@ End-to-end ETL pipeline for vendor profitability analysis across 2.7M+ transacti
 
 ---
 
-### 🤖 [AI Resume Screening Automation](./n8n_resume_screening_automation)
-Automated resume-to-JD matching using n8n and LLMs.
+### 🤖 [AI Resume Screening Automation](https://github.com/Arjun76692/n8n_resume_screening_automation)
+Automated resume-to-JD matching using n8n and LLM's Api.
 
 - Monitors Google Drive for new resumes, scores them against a JD automatically
 - Outputs skills match %, gaps, and recommendation to Google Sheets
