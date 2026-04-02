@@ -1,121 +1,119 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Merriweather&size=48&duration=2500&pause=9999&color=7AE2CF&center=true&vCenter=true&width=1000&height=80&lines=Shivarjun+Reddy+Palla" alt="Shivarjun Reddy Palla" />
-</p>
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Jetbrains+Mono&size=22&duration=2500&pause=250&color=077A7D&center=true&vCenter=true&width=1000&height=50&lines=Business+Analyst;Data+Analyst" alt="Role" />
-</p>
+# Shivarjun Reddy Palla
 
-# Hey! I'm Shivarjun 👋
+**Data Analyst | Business Analyst | Product-Focused Problem Solver**  
+Python · SQL · Power BI · Process Analysis · Hyderabad
 
-**Data & Business Analytics | Python · SQL · Power BI | Hyderabad**
+Recent MCA graduate who uses data to understand real product and business problems, then turns the findings into structured outputs such as dashboards, PRDs, BRDs, and process specs. Most work starts from a real question, not a toy dataset — why users complain despite a high rating, why investors ignore risk, where a pricing mismatch exists, or where a manual workflow can be automated.
 
-I'm a recent MCA post-graduate who learns by building real things. Not toy datasets — actual pipelines, real app data, financial instruments with real complexity. I care about finding the insight behind the numbers, not just running the code.
-
----
+***
 
 ## Featured Projects
 
----
+### [CRED App — 150K+ Review Analysis](https://github.com/Arjun76692/CRED-Product-Analytics-150K-Reviews)
+Investigated whether CRED's strong Play Store rating was hiding a deeper product issue. Scraped and analysed 150,000 reviews, built a weighted Pain Index, and found that rewards-related feedback averaged 2.48 stars versus the app's 4.20 overall rating.
 
-### 🔍 [CRED App — Play Store Review Analysis](https://github.com/Arjun76692/CRED-Product-Analytics-150K-Reviews)
-> *What does a 4.20 star rating hide? Turns out, a lot.*
+**Highlights**
+- 134,552 valid reviews analysed after cleaning.
+- Rewards devaluation ranked as the highest-impact complaint theme.
+- Complaint patterns stayed structural across 110 app versions rather than being tied to a single release.
+- Outputs included Python analysis, summary tables, charts, and Power BI views.
 
-I scraped 1,50,000 CRED Play Store reviews (Oct 2022 – Feb 2026) after noticing my coins couldn't buy anything cheaper than Amazon. What I found was a 1.72 star gap sitting underneath a healthy headline rating.
+**Stack:** Python, pandas, google-play-scraper, matplotlib, Power BI  
+**Links:** [Repo](https://github.com/Arjun76692/CRED-Product-Analytics-150K-Reviews) · [Medium article](https://medium.com/@arjunreddy.inc/i-analysed-1-50-000-cred-reviews-because-i-got-curious-about-my-own-coins-which-i-got-as-rewards-8ab54d11e6ac)
 
-**The core finding:**
-- Overall app rating: **4.20 ★**
-- Reviews mentioning rewards: **2.48 ★** — including positive ones
-- Gap: **1.72 stars**
-- 59.8% of all rewards-related reviews are 1 or 2 star
-- "Cashback" mentioned **3,215 times** — a single removed feature, still appearing years later
-- Every complaint theme classified as **structural** — spread across 110 versions, 3+ years. No release fixed it.
+***
 
-**Pain index ranking** (normalised complaint volume + community validation):
+### [Pricing Analytics Case Study — FlixBus](#)
+Worked on a real FlixBus India pricing dataset through an industry-sponsored academic engagement. Built competitor-matching logic across bus type, rating similarity, and a 90-minute departure window, then translated pricing gaps into a 5-bucket action framework.
 
-| Theme | Score |
-|---|---|
-| Rewards devaluation | 1.000 |
-| Customer support | 0.556 |
-| Payment issues | 0.477 |
-| App performance | 0.194 |
+**Highlights**
+- 26,170 routes analysed.
+- 15,163 underpriced and 3,991 overpriced combinations flagged.
+- Framework organised outputs into actionable pricing buckets with severity levels.
+- Also documented an automation plan for future ingestion and refresh.
 
-**Stack:** Python, google-play-scraper, pandas, matplotlib, Power BI
+**Stack:** Python, SQL, Excel, process documentation
 
-📄 [Read the full analysis on Medium](https://medium.com/@arjunreddy.inc/i-analysed-1-50-000-cred-reviews-because-i-got-curious-about-my-own-coins-which-i-got-as-rewards-8ab54d11e6ac) · 📓 [Notebook](https://github.com/Arjun76692/CRED-Product-Analytics-150K-Reviews/Analysis.ipynb)
+***
 
----
+### [Mutual Fund Risk-Aware Discovery](https://github.com/Arjun76692/Mutual-Fund-Risk-Adjusted-Performance-Analyzer-)
+Started with a simple question: why do so many investors choose funds using returns alone? Combined user research with fund-level analysis to study the gap between investor behaviour and risk-adjusted performance.
 
-### 📊 [Mutual Fund Investment Framework](https://github.com/Arjun76692/Mutual-Fund-Risk-Adjusted-Performance-Analyzer-)
-> *Only 6% of 340+ equity funds pass a basic risk-adjusted quality bar.*
+**Highlights**
+- 21-person survey found 76% of respondents choose funds without tracking risk metrics.
+- 14,221 funds sourced and narrowed to a 342-fund large-cap analysis set.
+- Compared CAGR-led selection with risk-aware filtering.
+- Turned findings into a PRD-style output with personas, requirements, and recommendations.
 
-I wanted to understand how to evaluate mutual funds beyond just returns — so I built a framework from scratch using real fund data, conducted 21 structured interviews to understand how retail investors actually make decisions, and found the gap between what investors look at and what the data says matters.
+**Stack:** Python, MySQL, Jupyter, PowerPoint, product analysis  
+**Links:** [Repo](https://github.com/Arjun76692/Mutual-Fund-Risk-Adjusted-Performance-Analyzer-) · [Medium article](https://medium.com/@arjunreddy.inc/i-asked-21-people-how-they-pick-mutual-funds-their-answers-shocked-me-5bd6295fd675)
 
-**The core finding:**
-- Analysed 342 equity mutual funds on risk-adjusted metrics
-- Only **6% cleared all three quality filters** — Sharpe ratio, max drawdown, and volatility threshold
-- Most funds marketed on 1-year returns had significantly worse 3-year risk profiles
-- Built a scoring model that weights downside protection over raw return
+***
 
-**What I built:**
-- Python-MySQL ETL pipeline to fetch, store, and refresh fund data
-- Calculated Sharpe ratio, max drawdown, volatility per fund
-- 21 structured investor interviews to validate the framework
-- PowerPoint deck with findings and recommendations
+### [Zomato — Complaint & Refund Resolution Case Study](https://github.com/Arjun76692/Zomato-Complaint_and_Refund_Resolution_Analysis_and_CaseStudy)
+Analysed complaint reviews to understand where Zomato's customer experience breaks down and how those issues can be translated into product and operations requirements.
 
-**Stack:** Python, MySQL, PowerPoint
+**Highlights**
+- 3,462 complaint reviews classified into 10 themes.
+- Zero-shot NLP used to identify dominant failure areas such as delivery behaviour and no-support-response.
+- Complaint spikes on specific dates pointed to system-wide operational issues rather than isolated incidents.
+- Findings converted into a BRD-style document with 9 functional requirements mapped to owner teams.
 
-📄 [Published on Medium](https://medium.com/@arjunreddy.inc/i-asked-21-people-how-they-pick-mutual-funds-their-answers-shocked-me-5bd6295fd675)
+**Stack:** Python, NLP, SQL, Power BI, BRD writing
 
----
+***
 
-### 📦 [E-Commerce Vendor Analytics Pipeline](https://github.com/Arjun76692/E-Commerce-Vendor-Analytics-Pipeline)
-End-to-end ETL pipeline for vendor profitability analysis across 2.7M+ transactions.
+### [Large-Scale EDA / ETL Pipeline](https://github.com/Arjun76692/EDA-ETL-Pipeline)
+Built a Python + SQL ETL pipeline for large retail-style transaction data, focusing on ingestion, cleaning, enrichment, and query-ready outputs for analysis.
 
-- Automated ingest → clean → transform pipeline with error handling and logging
-- Built star schema with KPIs: profit margin, inventory turnover, vendor concentration
-- Found top 24% of vendors generate 65% of profit — classic concentration risk
-- Power BI dashboard with drill-down by vendor, category, and time period
+**Highlights**
+- 3-stage pipeline covering extract, transform, and load.
+- Structured logging and error handling for failed loads and schema issues.
+- Derived metrics such as gross profit, margin, stock turnover, and unsold inventory.
+- Final outputs loaded into MySQL for reporting and dashboard use.
 
-**Stack:** Python, SQL, Power BI
+**Stack:** Python, pandas, SQLAlchemy, MySQL, logging
 
----
+***
 
-### 🤖 [AI Resume Screening Automation](https://github.com/Arjun76692/n8n_resume_screening_automation)
-Automated resume-to-JD matching using n8n and LLM's Api.
+### [AI Resume Screening Automation](https://github.com/Arjun76692/n8n_resume_screening_automation)
+Redesigned a manual screening workflow into an automated pipeline using n8n, LLM scoring, Google Drive, and Google Sheets.
 
-- Monitors Google Drive for new resumes, scores them against a JD automatically
-- Outputs skills match %, gaps, and recommendation to Google Sheets
-- JSON validation ensures consistent scoring across runs
+**Highlights**
+- Triggered automatically on new resume upload.
+- Extracted PDF text, matched against a job description, and returned structured scoring.
+- Wrote outputs such as matched skills, missing skills, recommendation, and score to Sheets.
+- Good example of workflow thinking, API integration, and structured output validation.
 
 **Stack:** n8n, Groq LLM, Google Drive API, Google Sheets
 
----
+***
 
 ## What I Work With
 
-**Languages & Tools**
-- **Python** — pandas, NumPy, matplotlib, SQLAlchemy, google-play-scraper
-- **SQL** — MySQL, CTEs, window functions, query optimisation
-- **BI Tools** — Power BI (DAX, star schema), Tableau
-- **Automation** — n8n workflows, API integrations
-- **Other** — Excel, Git
+- **Data:** Python, pandas, NumPy, SQL, MySQL, Excel, Power BI
+- **Analysis:** EDA, KPI tracking, funnel thinking, complaint analysis, competitive analysis, risk metrics
+- **Documentation:** PRDs, BRDs, product briefs, process specs, stakeholder-ready summaries
+- **Automation:** n8n, API workflows, LLM-assisted scoring pipelines
 
----
+***
 
 ## Certifications
 
-- 🏆 **Google Data Analytics Professional Certificate** (Coursera)
-- 🥇 **HackerRank SQL Gold Badge** — Top 15%
-- 💻 **LeetCode SQL** — 95+ problems, Top 15%
+- Google Data Analytics Professional Certificate
+- HackerRank SQL Gold Badge
+- LeetCode SQL — Top 15%
+- Accenture Tech Consulting Simulation (Forage)
 
----
+***
 
-## Get in Touch
+## Contact
 
-📧 arjunreddy.inc@gmail.com
-💼 [LinkedIn](https://www.linkedin.com/in/shivarjun-reddy-palla-31a001223/)
-📍 Hyderabad, India
+- **Email:** shivarjunreddypalla@gmail.com
+- **LinkedIn:** [linkedin.com/in/shivarjun-reddy-palla](https://www.linkedin.com/in/shivarjun-reddy-palla/)
+- **GitHub:** [github.com/Arjun76692](https://github.com/Arjun76692)
+- **Location:** Hyderabad, India
 
----
+***
 
-*All projects have runnable code, documented notebooks, and real outputs. If it's here, it works.*
+All repositories here are learning projects built to demonstrate real analysis, structured thinking, and practical execution for Data Analyst, Business Analyst, and Product Analyst roles.
